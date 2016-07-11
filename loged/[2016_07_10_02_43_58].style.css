@@ -1,0 +1,16 @@
+.header .center{
+	text-align:center;
+}
+.header .logo{
+	width:152px;
+	height:81px;
+	background-image:url("../images/items.png");
+	background-size:330%;
+	background-position:0 0;
+	float:left;
+}
+.header{
+	padding:8px 0;
+	clear:both;
+	background:#ffffff;
+}
