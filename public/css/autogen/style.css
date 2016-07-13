@@ -1,0 +1,25 @@
+#lg_0 .header .center{
+	text-align:center;
+}
+#lg_0 .header .logo{
+	width:152px;
+	height:81px;
+	background-image:url("/public/image/logo.png");
+	background-size:330%;
+	background-position:0 0;
+	float:left;
+}
+#lg_0 .header{
+	padding:8px 0;
+	clear:both;
+	background:#ffffff;
+}
+#lg_0{
+	height:100px;
+}
+#lg_1{
+	height:300px;
+}
+#lg_2{
+	height:400px;
+}
