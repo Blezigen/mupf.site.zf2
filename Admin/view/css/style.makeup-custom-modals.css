@@ -1,0 +1,36 @@
+.makeup-modal.option{
+    top: 0;
+    left: -400px;
+    width: 400px;
+    padding-left: 0px;
+}
+.makeup-modal.option.active{
+    left: 0px;
+}
+
+.makeup-modal.setting{
+    top: 0;
+    left: -400px;
+    width: 400px;
+    padding-left: 0px;
+}
+.makeup-modal.setting.active{
+    left: 0px;
+}
+
+.makeup-modal .group_control{
+    text-align: center;
+}
+.makeup-modal.remove{
+    visibility: hidden;
+    bottom: -142px;
+
+    margin-left: -150px;
+    width: 300px;
+    left: 50%;
+    height: 142px;
+}
+.makeup-modal.remove.active {
+    visibility: visible;
+    bottom: 40px;
+}

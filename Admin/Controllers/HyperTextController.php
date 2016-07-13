@@ -1,15 +1,11 @@
 <?php
-namespace Package;
-include_once "InputOutput.php";
-/**
- * Created by PhpStorm.
- * User: Ильяс
- * Date: 09.07.2016
- * Time: 15:42
- */
-use Package\InputOutput as IO;
+namespace Controllers;
 
-class HyperText
+include_once "InputOutputController.php";
+
+use Controllers\InputOutputController as IO;
+
+class HyperTextController
 {
     protected $_hyperText;
     protected $_io;

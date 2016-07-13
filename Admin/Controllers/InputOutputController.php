@@ -1,12 +1,12 @@
 <?php
-namespace Package;
+namespace Controllers;
 /**
  * Created by PhpStorm.
  * User: Ильяс
  * Date: 09.07.2016
  * Time: 15:46
  */
-class InputOutput {
+class InputOutputController {
     function __construct() {}
 
     public function array_to_string($array_values, $splitter = " "){
@@ -27,7 +27,7 @@ class InputOutput {
     public function save_file($path_file, $data){
         if (file_exists($path_file)){
             $result = date('Y_m_d_H_i_s');
-            copy( $path_file, "loged/[".$result."].".basename($path_file) );
+            copy( $path_file, "../loged/[".$result."].".basename($path_file) );
         }
         $fp = fopen($path_file, "w");
         fwrite($fp, $data);

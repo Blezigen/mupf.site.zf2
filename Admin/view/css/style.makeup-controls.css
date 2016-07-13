@@ -1,0 +1,32 @@
+/* Link */
+a, a:visited {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+a.color-light:hover{
+    color: #d5d500;
+}
+
+/* Button */
+button{
+    background-color: #1772EC;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #135DBC;
+    color: #fff;
+}
+button:active {
+    background-color: rgba(18, 67, 117, 1);
+    color: #f1f1f1;
+}

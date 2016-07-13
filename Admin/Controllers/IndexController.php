@@ -90,6 +90,10 @@ class IndexController
         return $conf;
     }
 
+    public function _get_title(){
+        return $this->_config["title"];
+    }
+    
     public function save_changes($landing_name)
     {
         $config = $this->_get_config($landing_name);
@@ -106,33 +110,34 @@ class IndexController
                 $htext.= $html->get_HTML();
             }
         }
-        $this->_io->save_file("style.css", $css);
-        $this->_io->save_file("index.html", $htext);
+        $this->_io->save_file("layout/css/style.css", $css);
+        $this->_io->save_file("layout/{$landing_name}.phtml", $htext);
     }
 
     public function _connect_scripts()
     {
-        foreach ($this->_get_scripts() as $script) {
-            if (array_key_exists($script, $this->_config["scripts"])) {
-                echo "<script src=\"{$this->_config["scripts"][$script]}\"></script>" . "\n";
-            }
-        }
+//        foreach ($this->_get_scripts() as $script) {
+//            if (array_key_exists($script, $this->_config["scripts"])) {
+//                echo "<script src=\"{$this->_config["scripts"][$script]}\"></script>" . "\n";
+//            }
+//        }
     }
 
     public function _connect_styles()
     {
-        echo "<link  rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$this->_config["styles"]["general"]}\"/>" . "\n";
-        foreach ($this->_get_styles() as $script) {
-            if (array_key_exists($script, $this->_config["styles"])) {
-                echo "<link href=\"{$this->_config["styles"][$script]}\"/>" . "\n";
-            }
-        }
+        echo "<link  rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"layout/css/{$this->_config["styles"]["general"]}\"/>" . "\n";
+//        foreach ($this->_get_styles() as $script) {
+//            if (array_key_exists($script, $this->_config["styles"])) {
+//                echo "<link href=\"{$this->_config["styles"][$script]}\"/>" . "\n";
+//            }
+//        }
     }
 
-    public function _view($contents)
+    public function _view($landing_name)
     {
         $seo_config = $this->_config["local"]["seo"];
-        $content = $contents;
-        include "layout/index.phtml";
+        $content = file_get_contents("layout/{$landing_name}.phtml");
+        
+        include_once "layout/index.phtml";
     }
 }
