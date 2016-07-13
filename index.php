@@ -11,7 +11,6 @@ use Package\IndexController as IndexController;
 
 $_config["local"] = include "configs/config.local.php";
 
-
 $Controller = new IndexController($_config["local"]);
 $Controller->save_changes("landing");
-$Controller->_view(file_get_contents("index.html"));
+$Controller->_view("landing");
