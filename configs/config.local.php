@@ -6,6 +6,7 @@
  * Time: 16:24
  */
     return array(
+        "title" => "Название Лендинга",
         "template_dir" => "templates",
 
         "scripts" => array(
