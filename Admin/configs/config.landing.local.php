@@ -35,18 +35,34 @@
             ),
             array(
                 "name_pack" => "kakadu",
-                "name_template" => "header",
+                "name_template" => "container_with_form",
                 "options" => array(
                     "active_area" => "",
-                    "height"      => 300
+                    "height"      => 500
                 ),
             ),
             array(
                 "name_pack" => "kakadu",
-                "name_template" => "footer",
+                "name_template" => "headers",
                 "options" => array(
                     "active_area" => "",
-                    "height"      => 400
+                    "height"      => 100
+                ),
+            ),
+            array(
+                "name_pack" => "kakadu",
+                "name_template" => "container_with_form",
+                "options" => array(
+                    "active_area" => "",
+                    "height"      => 500
+                ),
+            ),
+            array(
+                "name_pack" => "kakadu",
+                "name_template" => "headers",
+                "options" => array(
+                    "active_area" => "",
+                    "height"      => 100
                 ),
             )
         ),

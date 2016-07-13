@@ -1,5 +1,6 @@
-#lg_0 .header .center{
-	text-align:center;
+#lg_0 .header .normal{
+	font-weight:400;
+	font-size:24px;
 }
 #lg_0 .header .logo{
 	width:152px;
@@ -9,6 +10,44 @@
 	background-position:0 0;
 	float:left;
 }
+#lg_0 .header .header-label{
+	text-align:center;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:31px;
+}
+#lg_0 .header .phone-block .phone{
+	margin-top: 5px;
+	font-size:27px;
+	color:#010101;
+	padding-left:44px;
+	font-weight:500;
+	margin-bottom:7px;
+}
+#lg_0 .header .phone-block .call-modal{
+	text-decoration:underline;
+	font-size:18px;
+	color:#010101;
+	text-align:center;
+}
+#lg_0 .header .phone-block .phone::before{
+	content:"";
+	width:30px;
+	height:30px;
+	top:10px;
+	left:0;
+	position:absolute;
+	background-image:url(/public/image/icons.png);
+	background-size:320%;
+	background-position:50% 5.43%;
+}
+#lg_0 .header .phone-block{
+	width:260px;
+	float:right;
+	position:relative;
+	padding-top:7px;
+}
 #lg_0 .header{
 	padding:8px 0;
 	clear:both;
@@ -17,9 +56,189 @@
 #lg_0{
 	height:100px;
 }
+#lg_1 .section-cwf .h2{
+	margin-left:30px;
+	font-size:48px;
+}
+#lg_1 .section-cwf .text-shadow{
+	text-shadow:0 1px 1px #000;
+}
+#lg_1 .section-cwf .white{
+	color:#fff;
+}
+#lg_1 .section-cwf .bold{
+	font-weight:600;
+}
+#lg_1 .section-cwf .center{
+	text-align:center;
+}
+#lg_1 .section-cwf .form{
+	width:480px;
+	padding:40px;
+	border:4px solid #fff;
+	display:block;
+	margin:30px auto;
+}
+#lg_1 .section-cwf{
+	background-image:url(http://sad-kakady.ru/source/2/155/577971647a249/src/images/section-8.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	background-size:cover;
+	background-attachment:fixed;
+	padding:40px 0 50px;
+	height:100%;
+}
 #lg_1{
-	height:300px;
+	height:500px;
+}
+#lg_2 .header .normal{
+	font-weight:400;
+	font-size:24px;
+}
+#lg_2 .header .logo{
+	width:152px;
+	height:81px;
+	background-image:url("/public/image/logo.png");
+	background-size:330%;
+	background-position:0 0;
+	float:left;
+}
+#lg_2 .header .header-label{
+	text-align:center;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:31px;
+}
+#lg_2 .header .phone-block .phone{
+	margin-top: 5px;
+	font-size:27px;
+	color:#010101;
+	padding-left:44px;
+	font-weight:500;
+	margin-bottom:7px;
+}
+#lg_2 .header .phone-block .call-modal{
+	text-decoration:underline;
+	font-size:18px;
+	color:#010101;
+	text-align:center;
+}
+#lg_2 .header .phone-block .phone::before{
+	content:"";
+	width:30px;
+	height:30px;
+	top:10px;
+	left:0;
+	position:absolute;
+	background-image:url(/public/image/icons.png);
+	background-size:320%;
+	background-position:50% 5.43%;
+}
+#lg_2 .header .phone-block{
+	width:260px;
+	float:right;
+	position:relative;
+	padding-top:7px;
+}
+#lg_2 .header{
+	padding:8px 0;
+	clear:both;
+	background:#ffffff;
 }
 #lg_2{
-	height:400px;
+	height:100px;
+}
+#lg_3 .section-cwf .h2{
+	margin-left:30px;
+	font-size:48px;
+}
+#lg_3 .section-cwf .text-shadow{
+	text-shadow:0 1px 1px #000;
+}
+#lg_3 .section-cwf .white{
+	color:#fff;
+}
+#lg_3 .section-cwf .bold{
+	font-weight:600;
+}
+#lg_3 .section-cwf .center{
+	text-align:center;
+}
+#lg_3 .section-cwf .form{
+	width:480px;
+	padding:40px;
+	border:4px solid #fff;
+	display:block;
+	margin:30px auto;
+}
+#lg_3 .section-cwf{
+	background-image:url(http://sad-kakady.ru/source/2/155/577971647a249/src/images/section-8.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	background-size:cover;
+	background-attachment:fixed;
+	padding:40px 0 50px;
+	height:100%;
+}
+#lg_3{
+	height:500px;
+}
+#lg_4 .header .normal{
+	font-weight:400;
+	font-size:24px;
+}
+#lg_4 .header .logo{
+	width:152px;
+	height:81px;
+	background-image:url("/public/image/logo.png");
+	background-size:330%;
+	background-position:0 0;
+	float:left;
+}
+#lg_4 .header .header-label{
+	text-align:center;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:31px;
+}
+#lg_4 .header .phone-block .phone{
+	margin-top: 5px;
+	font-size:27px;
+	color:#010101;
+	padding-left:44px;
+	font-weight:500;
+	margin-bottom:7px;
+}
+#lg_4 .header .phone-block .call-modal{
+	text-decoration:underline;
+	font-size:18px;
+	color:#010101;
+	text-align:center;
+}
+#lg_4 .header .phone-block .phone::before{
+	content:"";
+	width:30px;
+	height:30px;
+	top:10px;
+	left:0;
+	position:absolute;
+	background-image:url(/public/image/icons.png);
+	background-size:320%;
+	background-position:50% 5.43%;
+}
+#lg_4 .header .phone-block{
+	width:260px;
+	float:right;
+	position:relative;
+	padding-top:7px;
+}
+#lg_4 .header{
+	padding:8px 0;
+	clear:both;
+	background:#ffffff;
+}
+#lg_4{
+	height:100px;
 }

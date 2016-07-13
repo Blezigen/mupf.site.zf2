@@ -2,6 +2,7 @@
 namespace Controllers;
 include_once "headers/headers.php";
 include_once "footer/footer.php";
+include_once "container_with_form/container_with_form.php";
 
 /**
  * Created by PhpStorm.
@@ -27,6 +28,7 @@ $pack_config = array(
 );
 $pack_config["templates"] = array(
     "headers" => new HeadersConfigurator($pack_config["config"]["name"],"headers"),
+    "container_with_form" => new ContainerWithFormConfigurator($pack_config["config"]["name"],"container_with_form"),
 );
 return $pack_config;
 

@@ -11,23 +11,84 @@
       },
       "child":[
         {
-          "selector":"center",
+          "selector":"normal",
           "type" : ".",
           "attrs" : {
-              "text-align":"center"
+              "font-weight":"400",
+              "font-size" : "24px"
           }
         },
         {
           "selector":"logo",
           "type" : ".",
           "attrs": {
-              "width":"152px",
-              "height":"81px",
-              "background-image":"url(\"/public/image/logo.png\")",
-              "background-size":"330%",
-              "background-position":"0 0",
-              "float":"left"
+            "width":"152px",
+            "height":"81px",
+            "background-image":"url(\"/public/image/logo.png\")",
+            "background-size":"330%",
+            "background-position":"0 0",
+            "float":"left"
           }
+        },
+        {
+          "selector":"header-label",
+          "type" : ".",
+          "attrs": {
+            "text-align":"center",
+            "position":"absolute",
+            "width":"100%",
+            "left":"0",
+            "top":"31px"
+          }
+        },
+        {
+          "selector":"phone-block",
+          "type" : ".",
+          "attrs": {
+            "width":"260px",
+            "float":"right",
+            "position":"relative",
+            "padding-top":"7px"
+          },
+          "child":[
+            {
+              "selector":"phone",
+              "type" : ".",
+              "attrs": {
+                "margin-top":" 5px",
+                "font-size":"27px",
+                "color":"#010101",
+                "padding-left":"44px",
+                "font-weight":"500",
+                "margin-bottom":"7px"
+              }
+            },
+            {
+              "selector":"call-modal",
+              "type" : ".",
+              "attrs": {
+                "text-decoration":"underline",
+                "font-size":"18px",
+                "color":"#010101",
+                "text-align":"center"
+              }
+            },
+            {
+              "selector":"phone::before",
+              "type" : ".",
+              "attrs": {
+                "content":"\"\"",
+                "width":"30px",
+                "height":"30px",
+                "top":"10px",
+                "left":"0",
+                "position":"absolute",
+                "background-image":"url(/public/image/icons.png)",
+                "background-size":"320%",
+                "background-position":"50% 5.43%"
+              }
+            }
+          ]
         }
       ]
     }
@@ -50,7 +111,7 @@
             {
               "tag":"div",
               "column":1,
-              "class": ["phone-hidden","header-label","medium","center"],
+              "class": ["header-label","medium","center"],
               "children":[
                 {
                   "tag":"h5",
@@ -112,53 +173,6 @@
                           "value":"Заказать обратный звонок"
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "tag":"span",
-                  "class": ["phone-visible"],
-                  "children":[
-                    {
-                      "tag":"a",
-                      "class": ["call-modal","callback"],
-                      "attributes":[
-                        {
-                          "name": "href",
-                          "value": ""
-                        },
-                        {
-                          "name": "data-toggle",
-                          "value": "modal"
-                        },
-                        {
-                          "name": "data-target",
-                          "value": "#callback"
-                        }
-                      ],
-                      "children":[
-                        {
-                          "tag":"text",
-                          "value":"Заказать обратный звонок"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tag":"div",
-              "column":1,
-              "class": ["phone-visible","header-label-phone"],
-              "children":[
-                {
-                  "tag":"h5",
-                  "class": ["h5","normal"],
-                  "children":[
-                    {
-                      "tag":"text",
-                      "value":"Франшиза детского сада"
                     }
                   ]
                 }

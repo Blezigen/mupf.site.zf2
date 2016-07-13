@@ -59,17 +59,27 @@ body, html {
     float: left;
     position: relative;
 }
+.makeup-view:hover + .makeup-view-option{
+    opacity: 1;
+}
 
 .makeup-view-option{
+    opacity: 0;
     top: 10px;
     position: absolute;
     right: 10px;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.makeup-view-option:hover{
+    opacity: 1;
 }
 
-.makeup-view-option button{
+.makeup-view-option button {
     font-size: 12px;
     display: block;
     float: left;
+
     border-radius: 0px;
 }
 .makeup-view-option button:first-child{
