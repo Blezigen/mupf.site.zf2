@@ -15,11 +15,12 @@ $controller = new AdminController("landing");
 if ($data){
     for ($i = 0; $i < 10000000; $i++){}
     if ($data["action"] == "option") {
-        $controller->get_SettingGrid($data["id_section"],$data["name_pack"], $data["name_template"]);
+        $controller->_view("view/Designer/get_option.phtml");
+//        $controller->get_SettingGrid($data["id_section"],$data["name_pack"], $data["name_template"]);
     }
 }
 else {
-    $controller->_view();
+    $controller->_view("view/Designer/index.phtml");
 }
 
 

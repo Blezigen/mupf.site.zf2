@@ -81,10 +81,10 @@ $(document).ready(function () {
         get_option(name_pack,name_template,id_section);
        _active(".makeup-modal.option","active");
     });
-    $(".makeup-designer").on("click",".makeup-option",function () {
-        _active(".makeup-modal.setting","active");
-    });
-    $(".makeup-designer").on("click",".makeup-remove",function () {
-        _active(".makeup-modal.remove","active");
-    });
+    // $(".makeup-designer").on("click",".makeup-option",function () {
+    //     _active(".makeup-modal.setting","active");
+    // });
+    // $(".makeup-designer").on("click",".makeup-remove",function () {
+    //     _active(".makeup-modal.remove","active");
+    // });
 });

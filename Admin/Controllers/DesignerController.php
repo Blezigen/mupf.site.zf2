@@ -42,8 +42,10 @@ class AdminController{
         return $this->_config["suffix"];
     }
 
-    public function _view(){
-        include "view/Designer/index.phtml";
+    public function _view($file){
+        $data = $_POST;
+        if (file_exists($file))
+            include $file;
     }
 
     public function _getContent($name_pack,$name_template,$config){
