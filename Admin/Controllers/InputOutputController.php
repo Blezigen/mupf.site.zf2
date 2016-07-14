@@ -47,4 +47,42 @@ class InputOutputController {
         }
         return $tab;
     }
+
+    // Офигенная фукция вытаскивает значение из массива при помощи строки [foo][bar] в массиве foo => array(bar => int(8))) извлечет 8
+    public function get_value_in_array_as_string($arr, $string)
+    {
+        preg_match_all('/\[([^\]]*)\]/', $string, $arr_matches, PREG_PATTERN_ORDER);
+        $return = $arr;
+        foreach($arr_matches[1] as $dimension)
+        {
+            $return = $return[$dimension];
+        }
+        return $return;
+    }
+
+    // Вероятно не будет пахать на чужом хостинге из за использования указателей
+    public function set_value_in_array_as_string(&$arr, $string, $val)
+    {
+        preg_match_all('/\[([^\]]*)\]/', $string, $arr_matches, PREG_PATTERN_ORDER);
+        $return = &$arr;
+        foreach($arr_matches[1] as $dimension)
+        {
+            $return = &$return[$dimension];
+        }
+        $return = $val;
+    }
+
+    // моя попытка чтобы работала без указателей
+    public function get_changed_array_value_as_string(&$arr, $string, $val)
+    {
+//        Короче пока замороженно
+//        preg_match_all('/\[([^\]]*)\]/', $string, $arr_matches, PREG_PATTERN_ORDER);
+//        $return = &$arr;
+//        foreach($arr_matches[1] as $dimension)
+//        {
+//            $return = &$return[$dimension];
+//        }
+//        $return = $val;
+    }
+
 }

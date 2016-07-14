@@ -34,10 +34,10 @@
         <?php foreach ( $blocks as $key => $block ) { ?>
         <div class="makeup-block clear-fix" id="<?php echo $key; ?>">
             <div class="makeup-view" id="<?php echo $this->_getSuffix(); ?><?php echo $key; ?>">
-                <?php echo $this->_getContent($block["name_pack"],$block["name_template"]); ?>
+                <?php echo $this->_getContent($block["name_pack"],$block["name_template"],$block["configuration"]); ?>
             </div>
             <div class="makeup-view-option">
-                <button class="makeup-edit"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></button>
+                <button class="makeup-edit" name-pack="<?php echo $block["name_pack"]; ?>" id-section="<?php echo $key; ?>" name-template="<?php echo $block["name_template"]; ?>"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></button>
                 <button class="makeup-option"><i class="fa fa-cog fa-lg" aria-hidden="true"></i></button>
                 <button class="makeup-remove"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
                 <button class="makeup-change-position"><i class="fa fa-align-justify fa-lg" aria-hidden="true"></i></button>
@@ -49,7 +49,6 @@
         <?php } ?>
         <div class="makeup-modal option">
             <div class="makeup-modal-container">
-
             </div>
         </div>
         <div class="makeup-modal setting">

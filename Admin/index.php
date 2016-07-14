@@ -6,9 +6,19 @@
  * Time: 12:46
  */
 include_once "Controllers/DesignerController.php";
+include_once "Controllers/Controls/BasicControl.php";
+include_once "Controllers/Controls/TextControl.php";
 
 use Controllers\AdminController as AdminController;
-
-
+$data = $_POST;
 $controller = new AdminController("landing");
-$controller->_view();
+if ($data){
+    if ($data["action"] == "option") {
+        $controller->get_SettingGrid($data["id_section"],$data["name_pack"], $data["name_template"]);
+    }
+}
+else {
+    $controller->_view();
+}
+
+

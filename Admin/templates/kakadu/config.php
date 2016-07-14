@@ -14,7 +14,7 @@ $pack_config = array(
     "config" => array(
         "title" => "Набор элементов Лендинга Какаду.", // Название шаблона
         "name" => "kakadu", // Уникальное наименование шаблона должно совпадать с именем папки
-        "custom_template_folder" => "templates",
+//        "custom_template_folder" => "templates",
         "scripts" => array( // Нужные скрипты для работы шаблона
             "style",
             "jquery",

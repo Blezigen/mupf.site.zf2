@@ -10,6 +10,8 @@ use Controllers\StyleSheetController as CSS;
 use Controllers\HyperTextController as HTML;
 use Controllers\InputOutputController as IO;
 use Controllers\PackController as Pack;
+use Controllers\Controls\BasicControl as BC;
+
 
 class AdminController{
     protected $_config;
@@ -44,15 +46,26 @@ class AdminController{
         include "view/Designer/index.phtml";
     }
 
-    public function _getContent($name_pack,$name_template){
+    public function _getContent($name_pack,$name_template,$config){
         $config_block = $this->_packController->get_PackConfig($name_pack);
         if (array_key_exists($name_template, $config_block["templates"])){
             //echo $this->_packController->get_HyperText($name_template);
-            $this->_html->set_HyperText($this->_packController->get_HyperText($name_template));
+            $this->_html->set_HyperText($this->_packController->get_HyperText($name_template, $config));
         }
         return $this->_html->get_HTML();
     }
 
+    public function get_SettingGrid($id_section,$name_pack,$name_template){
+        $config_block = $this->_packController->get_PackConfig($name_pack);
+        
+        $settings = $this->_packController->get_SettingGrid($name_template);
+        $grid = "";
+        foreach ($settings as $key => $value) {
+            $grid .= $value->_set_value($this->_config["blocks"][$id_section][configuration][$key]["value"]);
+            $grid .= $value->_get_echo();
+        }
+        return $grid;
+    }
     public function save_changes(){
         $blocks = $this->_config["blocks"];
 
@@ -64,7 +77,7 @@ class AdminController{
                 "attrs" => array(
                     "height" => "{$block["options"]["height"]}px",
                 ),
-                "child" => $this->_packController->get_StyleSheet($block["name_template"])
+                "child" => $this->_packController->get_StyleSheet($block["name_template"],$block["configuration"])
             );
         }
         $this->_css->set_style($this->_config["css"]);

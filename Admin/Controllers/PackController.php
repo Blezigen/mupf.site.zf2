@@ -21,17 +21,28 @@ class PackController
         );
     }
 
-    public function get_StyleSheet($name_template){
+    public function get_SettingGrid($name_template){
+        $grid = array();
         if (array_key_exists($name_template, $this->_config["templates"])) {
             $configurator = $this->_config["templates"][$name_template];
+            $grid = $configurator->_get_controls();
+        }
+        return $grid;
+    }
+
+    public function get_StyleSheet($name_template, $config = array()){
+        if (array_key_exists($name_template, $this->_config["templates"])) {
+            $configurator = $this->_config["templates"][$name_template];
+            $configurator->_set_configuration($config);
             $style = $configurator->get_StyleSheet();
             return $style;
         }
     }
 
-    public function get_HyperText($name_template){
+    public function get_HyperText($name_template, $config = array()){
         if (array_key_exists($name_template, $this->_config["templates"])) {
             $configurator = $this->_config["templates"][$name_template];
+            $configurator->_set_configuration($config);
             $style = $configurator->get_HyperText();
             return $style;
         }
