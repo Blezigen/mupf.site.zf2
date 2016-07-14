@@ -23,4 +23,3 @@ else {
     $controller->_view("view/Designer/index.phtml");
 }
 
-
