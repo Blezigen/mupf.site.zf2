@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca30e7b-cede-499d-871b-d3736700c085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Controllers/Controls/BasicControl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/view/controls/TextControl.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kakadu/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kakadu/headers.mupf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kakadu/test.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/view/controls/preloader.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/view/css/style.animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/view/css/style.preloader.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controllers/ConfigurateController.php" afterPath="$PROJECT_DIR$/Admin/Controllers/ConfigurateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controllers/DesignerController.php" afterPath="$PROJECT_DIR$/Admin/Controllers/DesignerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controllers/InputOutputController.php" afterPath="$PROJECT_DIR$/Admin/Controllers/InputOutputController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controllers/PackController.php" afterPath="$PROJECT_DIR$/Admin/Controllers/PackController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/configs/config.landing.local.php" afterPath="$PROJECT_DIR$/Admin/configs/config.landing.local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php" afterPath="$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/index.php" afterPath="$PROJECT_DIR$/Admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/templates/kakadu/config.php" afterPath="$PROJECT_DIR$/Admin/templates/kakadu/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/templates/kakadu/headers/headers.php" afterPath="$PROJECT_DIR$/Admin/templates/kakadu/headers/headers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/view/Designer/index.phtml" afterPath="$PROJECT_DIR$/Admin/view/Designer/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/view/css/style.makeup-controls.css" afterPath="$PROJECT_DIR$/Admin/view/css/style.makeup-controls.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css" afterPath="$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/view/js/script.js" afterPath="$PROJECT_DIR$/Admin/view/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/autogen/style.css" afterPath="$PROJECT_DIR$/public/css/autogen/style.css" />
     </list>
     <ignored path="mupf.site.zf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,103 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.landing.local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/configs/config.landing.local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Admin/view/Designer/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="39" column="137" selection-start-line="39" selection-start-column="124" selection-end-line="39" selection-end-column="137" />
+            <state relative-caret-position="153">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignerController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/DesignerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <element signature="e#189#233#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PackController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/PackController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/templates/kakadu/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.makeup-modal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Admin/view/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextControl.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicControl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/Controls/BasicControl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextControl.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/view/controls/TextControl.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -155,6 +59,8 @@
       <list>
         <option value="MakeUP" />
         <option value="PHTML" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -187,7 +93,6 @@
         <option value="$PROJECT_DIR$/layout/index.phtml" />
         <option value="$PROJECT_DIR$/configs/config.local.php" />
         <option value="$PROJECT_DIR$/Package/IndexController.php" />
-        <option value="$PROJECT_DIR$/Admin/view/css/style.css" />
         <option value="$PROJECT_DIR$/Admin/templates/kakadu/container_with_form/container_with_form.php" />
         <option value="$PROJECT_DIR$/Admin/templates/kakadu/container_with_form/container_with_form.mupf" />
         <option value="$PROJECT_DIR$/Admin/templates/kakadu/config.php" />
@@ -195,10 +100,6 @@
         <option value="$PROJECT_DIR$/Admin/templates/kakadu/headers/headers.mupf" />
         <option value="$PROJECT_DIR$/Admin/Controllers/PackController.php" />
         <option value="$PROJECT_DIR$/Admin/view/css/style.makeup-controls.css" />
-        <option value="$PROJECT_DIR$/Admin/index.php" />
-        <option value="$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css" />
-        <option value="$PROJECT_DIR$/Admin/view/Designer/index.phtml" />
-        <option value="$PROJECT_DIR$/Admin/view/js/script.js" />
         <option value="$PROJECT_DIR$/Admin/Controllers/ConfigurateController.php" />
         <option value="$PROJECT_DIR$/Admin/Controllers/Controls/BasicControl.php" />
         <option value="$PROJECT_DIR$/Admin/view/controls/TextControl.phtml" />
@@ -206,6 +107,16 @@
         <option value="$PROJECT_DIR$/Admin/configs/config.landing.local.php" />
         <option value="$PROJECT_DIR$/Admin/Controllers/DesignerController.php" />
         <option value="$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php" />
+        <option value="$PROJECT_DIR$/Admin/view/css/style.css" />
+        <option value="$PROJECT_DIR$/Admin/index.php" />
+        <option value="$PROJECT_DIR$/Admin/view/Designer/preloader.phtml" />
+        <option value="$PROJECT_DIR$/Admin/view/css/style.animation.css" />
+        <option value="$PROJECT_DIR$/Admin/view/js/script.preloader.js" />
+        <option value="$PROJECT_DIR$/Admin/view/controls/preloader.phtml" />
+        <option value="$PROJECT_DIR$/Admin/view/css/style.preloader.css" />
+        <option value="$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css" />
+        <option value="$PROJECT_DIR$/Admin/view/Designer/index.phtml" />
+        <option value="$PROJECT_DIR$/Admin/view/js/script.js" />
       </list>
     </option>
   </component>
@@ -224,8 +135,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -268,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -543,7 +455,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,15 +463,17 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\Admin\view\controls" />
+      <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\templates\kakadu" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\Package" />
       <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\templates\Kakadu" />
       <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\templates\contents" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebServer\OpenServer\domains\mupf.site.zf\templates\kakadu" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Admin">
@@ -627,17 +540,18 @@
       <workItem from="1468178014207" duration="63000" />
       <workItem from="1468439460398" duration="5512000" />
       <workItem from="1468477840185" duration="27022000" />
+      <workItem from="1468512359876" duration="11187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53514000" />
+    <option name="totallyTimeSpent" value="64701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30673498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,7 +560,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4400631" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37940025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -672,7 +586,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="81" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="test.php">
@@ -682,15 +596,12 @@
       <configuration name="index.php">
         <watch expression="$this-&gt;_config[&quot;blocks&quot;][$id_section][configuration][$key][&quot;value&quot;]" />
       </configuration>
+      <configuration name="http://mupf.site.zf/Admin/">
+        <watch expression="$('.makeup-preloader').children('ul').first()" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_22_53_01].style.css" />
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_08_47].style.css" />
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_10_36].style.css" />
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_10_38].style.css" />
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_13_24].style.css" />
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_14_05].style.css" />
     <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_15_01].style.css" />
     <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_16_08].style.css" />
     <entry file="file://$PROJECT_DIR$/loged/[2016_07_13_23_16_33].style.css" />
@@ -733,14 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loged/[2016_07_14_09_28_35].style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/loged/[2016_07_14_09_28_35].style.css" />
     <entry file="file://$PROJECT_DIR$/Admin/Controllers/StyleSheetController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -769,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,23 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-controls.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,25 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-          <folding>
-            <element signature="e#161#215#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/templates/kakadu/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,51 +707,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/view/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/configs/config.landing.local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/view/Designer/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="39" column="137" selection-start-line="39" selection-start-column="124" selection-end-line="39" selection-end-column="137" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Controllers/DesignerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="867">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding>
-            <element signature="e#189#233#0#PHP" expanded="true" />
+            <marker date="1468512248512" expanded="false" signature="9:85" ph=" Created by PhpStorm. ..." />
+            <marker date="1468512248512" expanded="true" signature="105:3192" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="133:333" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="363:647" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="674:838" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="894:3150" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="913:1150" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="1036:1135" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="3127:3140" ph="..." />
+            <marker date="1468512248512" expanded="true" signature="3176:3186" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Controllers/PackController.php">
+    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Controllers/Controls/BasicControl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="323">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
@@ -899,10 +750,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Controls/TextControl.php">
+    <entry file="file://$PROJECT_DIR$/Admin/Controllers/DesignerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="458">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Controllers/PackController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/kakadu/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.animation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-controls.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/controls/preloader.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.preloader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-custom-modals.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/css/style.makeup-modal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/js/script.preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/Designer/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/view/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
           <folding />
         </state>
       </provider>

@@ -8,6 +8,16 @@
     background-color: #666666;
     opacity: 0;
 }
+.makeup-load{
+    position: fixed;
+    z-index: 1999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
 .makeup-modal {
     border-radius: 3px;
     position: fixed;
@@ -37,15 +47,15 @@
     box-shadow: 0px 0px 48px 0px rgba(163,163,163,0.5);
     height: 100%;
     background-color: #FFFFFF;
-    overflow-x: auto;
-    overflow-y: hidden;
+
 }
 .makeup-modal-title {
     padding: 20px;
     text-align: center;
 }
 .makeup-modal-body {
-
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .make-up-box-control{

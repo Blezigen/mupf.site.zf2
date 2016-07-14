@@ -5,8 +5,29 @@ function dark_disable () {
     _active(".makeup-modal","deactive");
 };
 
+function loading_screen () {
+    $("body").append("<div class='makeup-load'></div>");
+    $.ajax({
+       url:"view/controls/preloader.phtml",
+       success: function (data) {
+           $(".makeup-load").html(data);
+           Bricks();
+           $(".makeup-load").fadeTo( "fast" , 1.0 , function() {
+
+           });
+       }
+    });
+
+
+};
+function complete_screen () {
+    $(".makeup-load").fadeTo( "slow" , 0.0, function() {
+        $(".makeup-load").remove();
+    })
+};
+
 function get_option(name_pack,name_template,id_section) {
-    var container_option = $(".makeup-modal.option .makeup-modal-container");
+    var container_option = $(".makeup-modal.option .makeup-modal-container .makeup-modal-body");
     container_option.html("");
     $.ajax({
         url: 'index.php',
@@ -17,7 +38,9 @@ function get_option(name_pack,name_template,id_section) {
             name_template : name_template,
             id_section : id_section
         },
+        beforeSend : loading_screen,
         success:function (data) {
+            complete_screen();
             container_option.html(data);
             $(".makeup-modal.option").toggleClass("active", true);
             $(".dark").fadeTo( "fast" , 0.3, function() { })

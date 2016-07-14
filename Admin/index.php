@@ -13,6 +13,7 @@ use Controllers\AdminController as AdminController;
 $data = $_POST;
 $controller = new AdminController("landing");
 if ($data){
+    for ($i = 0; $i < 10000000; $i++){}
     if ($data["action"] == "option") {
         $controller->get_SettingGrid($data["id_section"],$data["name_pack"], $data["name_template"]);
     }
